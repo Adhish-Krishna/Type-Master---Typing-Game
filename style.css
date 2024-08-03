@@ -1,0 +1,102 @@
+.txt {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: orangered;
+    text-shadow: 4px 4px 2px purple;
+    
+}
+body{
+    text-align: center;
+}
+
+.keyboard{
+    width: 860px;
+    height: 310px;
+    border: 3px solid black;
+}
+
+.typingspace{
+    width: 860px;
+    height: 50px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.key{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-family: "Righteous", sans-serif;
+}
+.special{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.pressed{
+    background-color:orangered;
+    color: white;
+    box-shadow: rgba(231, 76, 4, 0.24) 0px 3px 8px;
+}
+
+.text{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.score{
+    font-family: "Righteous", sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    color: orangered;
+}
+
+.meaning{
+    font-family: "Righteous", sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.meaningspace{
+    width: 860px;
+    height: 150px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
